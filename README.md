@@ -2,6 +2,8 @@
 
 ##O projektu
 
+Kratak video rada aplikacije : https://www.dropbox.com/s/ja3c5aj1r6sfdrf/AplikacijaInteligentniSistemi.mov?dl=0
+
 Ova aplikacija predstavlja vid web preporuke baziran na upitu korisnika. Korisnik želi da pronađe odgovarajući blog, novinski članak ili slično, na osnovu zahteva koji predstavlja relativnu putanju do fajla koja sadrži tekst, odnosno u aplikaciji string. Primenom hill climbing algoritma, koji će detaljnije biti objašnjen u nastavku, generiše se random tekst iz baze (koja sadrži 120 tekstova), i poredi se sa zadatim upitom. Ono što je predmet poređenja jeste sličnost između tekstova koja se dobija u formi vektora korišćenjem takozvanog tf*idf računanja i računanja kosinusne sličnosti o kojima će takođe biti više reči u nastavku. Posle jedne ili više iteracija(što će najćešće biti slučaj) dobija se najverovatnije najsličniji tekst zadatom upitu. Ne i uvek, iz prostog razloga što hill climbing algoritam ne prolazi nužno kroz sve tekstove u bazi. 
 
 ##Način prikupljanja podataka i njihovo procesiranje
